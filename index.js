@@ -4,9 +4,7 @@ const router = express.Router();
 var app = express()
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-
-// department 
+app.use(bodyParser.json()); 
 
 var department = require('./models/department.js');
 var departmentApi = require('./router/department-Api.js');

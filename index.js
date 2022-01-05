@@ -15,6 +15,7 @@ var departmentApi = require('./router/department-Api.js');
 var student = require('./models/student_info.js');
 var studentApi = require('./router/student_info-Api.js');
 
+//course
 var course = require('./models/course_info.js');
 var courseApi = require('./router/course_info-Api.js');
 

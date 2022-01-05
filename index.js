@@ -19,6 +19,7 @@ var studentApi = require('./router/student_info-Api.js');
 var course = require('./models/course_info.js');
 var courseApi = require('./router/course_info-Api.js');
 
+//marks
 var marksModel = require('./models/marks_info.js');
 var marksApi = require('./router/marks_info-Api.js');
 

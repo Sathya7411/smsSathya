@@ -4,6 +4,8 @@ var mongoose = require("mongoose");
 const router = express.Router();
 var courseModel = require('../models/course_info.js');
 
+//course API
+
 router.post('/courseAdd', (request, response) => {
   console.log("request", request);
   var user = new courseModel({

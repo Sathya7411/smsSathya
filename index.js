@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
 
 // departments sathya
-//department schema
+//department schema and 
 var department = require('./models/department.js');
 var departmentApi = require('./router/department-Api.js');
 

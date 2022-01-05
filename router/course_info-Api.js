@@ -33,3 +33,5 @@ router.post('/courseAdd', (request, response) => {
 });
 
 module.exports = router;
+
+//module .xport = router

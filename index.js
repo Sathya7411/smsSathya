@@ -7,11 +7,11 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
 
-// departments sathya
-//department schema and 
+// departments 
 var department = require('./models/department.js');
 var departmentApi = require('./router/department-Api.js');
 
+//student
 var student = require('./models/student_info.js');
 var studentApi = require('./router/student_info-Api.js');
 

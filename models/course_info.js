@@ -1,3 +1,5 @@
+
+//Department Schema 
 const mongoose = require('mongoose');
 const course_infoSchema = mongoose.Schema({
      CourseID: { type: String },

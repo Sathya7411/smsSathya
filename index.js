@@ -1,3 +1,4 @@
+// hello blore...123
 const express = require("express")
 var mongoose = require("mongoose");
 const router = express.Router();
@@ -6,6 +7,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
 
+// departments sathya
+//department schema and 
 var department = require('./models/department.js');
 var departmentApi = require('./router/department-Api.js');
 
